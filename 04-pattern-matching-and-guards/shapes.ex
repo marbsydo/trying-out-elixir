@@ -8,7 +8,7 @@ defmodule Geometry do
 	end
 
 	def area(:circle, radius) when radius >= 0 do
-		3.1415926 * radius * radius
+		:math.pi * radius * radius
 	end
 
 	def area(:square, side) when side >= 0 do
